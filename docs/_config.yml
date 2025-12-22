@@ -1,0 +1,44 @@
+title: Professional SWE Agent
+description: AI-powered software engineering agent with multi-LLM support
+theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+repository: username/sweagent
+url: https://username.github.io
+baseurl: /sweagent
+
+# Navigation
+nav_links:
+  - title: Home
+    url: /
+  - title: Installation
+    url: /installation
+  - title: Configuration
+    url: /configuration
+  - title: Tools
+    url: /tools
+  - title: Examples
+    url: /examples
+  - title: API Reference
+    url: /api
+  - title: GitHub
+    url: https://github.com/username/sweagent
+
+# SEO
+twitter:
+  username: username
+author: Your Name
+social:
+  name: Professional SWE Agent
+  links:
+    - https://github.com/username/sweagent
